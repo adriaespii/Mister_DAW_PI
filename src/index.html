@@ -55,9 +55,12 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: 800;
-            color: var(--fcb-blue);
+            background: linear-gradient(to right, var(--fcb-blue), var(--fcb-red));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .nav-menu {
@@ -75,17 +78,19 @@
         }
 
         .nav-menu a:hover, .nav-menu a.active {
-            color: var(--fcb-red);
-            border-bottom: 2px solid var(--fcb-red);
+            color: var(--fcb-blue);
+            border-bottom: 3px solid var(--fcb-red);
         }
 
         /* --- Hero Section --- */
         .hero {
-            background: linear-gradient(135deg, var(--fcb-blue) 0%, #003366 100%);
+            background: linear-gradient(135deg, var(--fcb-blue) 0%, var(--fcb-red) 100%);
+            border-bottom: 6px solid var(--fcb-gold);
             color: white;
             text-align: center;
             padding: 4rem 2rem;
             margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(165, 0, 68, 0.2);
         }
 
         .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
@@ -133,9 +138,10 @@
         }
 
         .btn-filter.active, .btn-filter:hover {
-            background: var(--fcb-blue);
+            background: linear-gradient(90deg, var(--fcb-blue), var(--fcb-red));
             color: white;
-            border-color: var(--fcb-blue);
+            border-color: transparent;
+            box-shadow: 0 4px 10px rgba(0, 77, 152, 0.3);
         }
 
         /* --- CSS Grid per la Plantilla --- */
@@ -150,14 +156,16 @@
             border-radius: 12px;
             overflow: hidden;
             box-shadow: var(--shadow);
-            transition: transform 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s;
             position: relative;
             border: 1px solid #efefef;
+            border-bottom: 4px solid var(--fcb-blue);
         }
 
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 12px 20px rgba(0, 77, 152, 0.15);
+            border-bottom-color: var(--fcb-red);
         }
 
         .card-header {
