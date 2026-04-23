@@ -12,7 +12,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/646750-1692261623.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/81c7699c-1298-45d6-834e-df72d8c550c8/01-Joan_Garcia.png?width=670&height=790"
     },
     {
         "id": 25,
@@ -27,7 +27,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/44058-1692261623.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/01ac5137-9725-4e97-858e-711344d43fb5/25-Szczesny.jpg?width=600&height=600"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@ const localPlayersData = [
         "redCards": 1,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/356026-1692262597.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/46af26e5-df57-406a-9bb1-b6f037631f0f/04-Araujo.jpg?width=600&height=600"
     },
     {
         "id": 2,
@@ -57,7 +57,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/962110-1706698188.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/2ca1e448-3d31-4ff2-9909-44fd00368472/02-Cubarsi.jpg?width=600&height=600"
     },
     {
         "id": 23,
@@ -72,7 +72,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/411975-1692262529.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/e25e8ccc-4b69-48ef-8c48-2eebbcc74770/23-Kounde.jpg?width=600&height=600"
     },
     {
         "id": 3,
@@ -87,7 +87,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/636682-1692262483.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/82dfc9f5-ffc4-4b47-a828-21de924f9b5f/03-Balde.jpg?width=600&height=600"
     },
     {
         "id": 24,
@@ -102,7 +102,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/466794-1692262529.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/ab15b5c3-c764-40f7-983c-0fbd0ccd61bd/24-Eric_Garcia.jpg?width=600&height=600"
     },
     {
         "id": 8,
@@ -117,7 +117,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/683840-1692262279.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/10/15c26166-6a64-49a3-9ca7-6469e41b5387/08-Pedri.jpg?width=600&height=600"
     },
     {
         "id": 6,
@@ -132,7 +132,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/646740-1692262243.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/21356702-1d94-49a8-a94a-4170afe7ca16/06-Gavi.jpg?width=600&height=600"
     },
     {
         "id": 20,
@@ -147,7 +147,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/246002-1681313411.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/79af1dbc-34f3-4bb7-9ee4-08269866ab47/20-Olmo.jpg?width=600&height=600"
     },
     {
         "id": 17,
@@ -162,7 +162,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/746733-1692262243.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/aee1292c-f40e-46e9-8b45-c19646ad3a04/17-Casado.jpg?width=600&height=600"
     },
     {
         "id": 21,
@@ -177,7 +177,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": true,
         "injuryDesc": "Molèsties musculars, baixa per 2 setmanes",
-        "image": "https://img.a.transfermarkt.technology/portrait/header/324110-1692262203.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/793001b1-f225-4259-8a74-27e418a3e4c9/21-De_Jong.jpg?width=600&height=600"
     },
     {
         "id": 16,
@@ -192,7 +192,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/937085-1692262174.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/4e851606-cfd6-4dc4-9042-c3dee40dbeb7/16-Fermin.jpg?width=600&height=600"
     },
     {
         "id": 19,
@@ -207,7 +207,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/937086-1709543940.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/09/a9ecee2c-116c-405c-8524-3127913e7a3c/10-Lamine.jpg?width=600&height=600"
     },
     {
         "id": 9,
@@ -222,7 +222,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/38253-1701118759.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/10/10530dc5-694c-43b5-8ade-bde1ab834ccc/09-Lewandowski.jpg?width=600&height=600"
     },
     {
         "id": 11,
@@ -237,7 +237,7 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/411295-1692261905.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/10/08bbb1ff-004b-4623-a675-66fd1fbfdc8b/11-Raphinha.jpg?width=600&height=600"
     },
     {
         "id": 7,
@@ -252,6 +252,6 @@ const localPlayersData = [
         "redCards": 0,
         "injured": false,
         "injuryDesc": null,
-        "image": "https://img.a.transfermarkt.technology/portrait/header/258923-1692261905.jpg?lm=1"
+        "image": "https://www.fcbarcelona.com/photo-resources/2025/09/10/85f7a271-6b29-4459-be8b-128cb25596d0/14-Rashford.jpg?width=600&height=600"
     }
 ];
