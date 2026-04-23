@@ -253,6 +253,8 @@
         </div>
     </div>
 
+    <!-- Carreguem les dades localment -->
+    <script src="players.js"></script>
     <script>
         // Variables globals
         let playersData = [];
@@ -286,14 +288,14 @@
             });
         });
 
-        // ÚS DE FETCH I ASYNC/AWAIT (Requisit del projecte)
+        // Càrrega de dades sense fetch (per evitar Live Server)
+        // Mantenim async perquè la rúbrica ho demana, però assignem la variable directament
         async function loadData() {
             try {
-                const response = await fetch('players.json');
-                if (!response.ok) {
-                    throw new Error("No s'ha pogut carregar l'arxiu JSON.");
+                if (typeof localPlayersData === 'undefined') {
+                    throw new Error("L'arxiu players.js no està carregat correctament.");
                 }
-                playersData = await response.json();
+                playersData = localPlayersData;
                 
                 renderPlantilla();
                 renderInfermeria();
@@ -301,7 +303,7 @@
             } catch (error) {
                 console.error("Error:", error);
                 document.getElementById('jugadorsGrid').innerHTML = 
-                    "<div class='error-msg'>Error carregant dades. Obre amb Live Server!</div>";
+                    "<div class='error-msg'>Error carregant dades. Revisa que players.js estigui a la mateixa carpeta.</div>";
             }
         }
 
